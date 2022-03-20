@@ -1,0 +1,10 @@
+.Pokemon{
+    width: 10rem;
+    height: 15rem;
+
+    display: inline-block;
+
+    border: red 1px solid;
+
+    text-align: center;
+}
