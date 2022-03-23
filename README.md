@@ -15,4 +15,5 @@ Techstack:
 
 UI:
 
+![ui](https://github.com/lukaszgrudnik/pokedex/blob/main/ui1.png)
 
