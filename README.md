@@ -7,8 +7,12 @@ How to run application:
 3) run: npm start
 
 Techstack: 
- - Reactjs
+ - ReactJS
  - TypeScript 
  - CSS
  - HTML
+
+
+UI:
+
 
