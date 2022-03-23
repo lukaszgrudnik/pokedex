@@ -1,5 +1,8 @@
 # pokedex
 
+Description: 
+Application get pokemon from [remote API](https://pokeapi.co/) and display them on the screen. User can load more pokemon and search them by name. User interface implements dark mode also. 
+
 
 How to run application:
 1) download the package 
