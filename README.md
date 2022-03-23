@@ -13,7 +13,13 @@ Techstack:
  - HTML
 
 
-UI:
+User Interface:
 
 ![ui](https://github.com/lukaszgrudnik/pokedex/blob/main/ui1.png)
+
+![ui](https://github.com/lukaszgrudnik/pokedex/blob/main/ui2.png)
+
+Darkmode: 
+
+![ui](https://github.com/lukaszgrudnik/pokedex/blob/main/ui1darkmode.png)
 
