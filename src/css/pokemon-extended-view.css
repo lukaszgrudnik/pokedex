@@ -1,0 +1,78 @@
+.pokemon-extended{
+    background-color: rgb(212, 212, 212);
+    position: fixed;
+
+    --pokemon-extended-width: 20rem;
+    --pokemon-extended-height: 25rem;
+
+    width: var(--pokemon-extended-width);
+    height: var(--pokemon-extended-height);
+    z-index: 10;
+    padding: 2rem;
+
+    left: calc(50% - calc(var(--pokemon-extended-width) / 2));
+    top: calc(50% - calc(var(--pokemon-extended-height) / 2));
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 2px 8px 0 rgba(172, 172, 172, 0.5), 0 1px 20px 0 rgba(224, 224, 224, 0.19);
+    border: 1px solid rgb(235, 235, 235);
+
+    background-color: white;
+
+}
+
+.pokemon-extended .name::first-letter{
+    text-transform: uppercase;
+}
+
+.pokemon-extended .sprite-frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-extended p{
+    margin:0.5rem 0;
+}
+
+.types{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem
+}
+
+.close-icon{
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.stats{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.stats * {
+    font-size: 0.9rem;
+}
+
+.abilities h3{
+    font-weight: bold;
+}
+
+.ability{
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+.dimensions h3{
+    font-weight: bold;
+
+}
+
+.dimensions p{
+    font-size: 0.7rem; 
+}

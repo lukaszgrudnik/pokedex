@@ -1,0 +1,10 @@
+.search {
+    padding: 0.4rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    width: 20rem;
+    box-shadow: 1px 1px 4px rgba(35, 35, 35, 0.46);
+
+    margin-left: 5%;
+}

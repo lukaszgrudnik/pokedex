@@ -1,0 +1,95 @@
+.pokemon {
+    width: max-content;
+    height: 15rem;
+    text-align: center;
+
+    position: relative;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: start;
+
+    cursor: pointer;
+
+    border: 1px solid rgb(235, 235, 235);
+    padding: .5rem;
+    box-shadow: 0 2px 8px 0 rgba(172, 172, 172, 0.2), 0 1px 20px 0 rgba(224, 224, 224, 0.19);
+
+}
+
+.pokemon:hover{
+    /* animation: spring 500ms linear 0; */
+    animation-name: spring;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+    animation-delay: 0;
+}
+
+
+@keyframes spring {
+
+    0% {
+        top: 2px;
+    }
+    25% {
+        top: -2px
+    }
+    50% {
+        top: 2px;
+    } 
+    75% {
+        top: 0;
+    }
+    100% {
+        top : 0;
+    }
+
+}
+
+
+.sprite{
+    background-color: #f7f7f7;
+    width: 10rem;
+    height: 10rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pokemon h2::first-letter {
+    text-transform: uppercase;
+}
+
+.pokemon h2{
+    font-size: 1.2rem;
+}
+
+.pokemon-info{
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+
+    padding: 1rem 0;
+}
+
+.pokemon-type-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+
+    padding: .5rem 0;
+}
+
+.pokemon-type{
+
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: bolder;
+    border: 1px solid black;
+    width: max-content;
+    padding:0.2rem 0.5rem;
+    border-radius: 2rem;
+}

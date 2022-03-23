@@ -1,0 +1,55 @@
+* {
+    --circle-width: 4rem;
+    --circle-height: 4rem;
+
+    --circle-inside-width: 1.8rem;
+    --circle-inside-height: 1.8rem;
+
+    --circle-border: 7px;
+}
+
+
+header {
+    background-color: var(--red-color);
+    padding: 0 3rem;
+    box-shadow: 1px 1px 5px rgb(180, 180, 180);
+
+    border-bottom: 4px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header .circle{
+
+    background-color: white;
+
+    position: relative;
+
+    width: var(--circle-width);
+    height: var(--circle-height);
+
+    border-radius: 50%;
+    border: var(--circle-border) solid black;
+
+    bottom: calc( -2rem - 4px  + 2px);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header .circle::after{
+    content: "";
+
+    width: var(--circle-inside-width);
+    height: var(--circle-inside-height);
+
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+
+}

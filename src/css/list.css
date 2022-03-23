@@ -1,0 +1,29 @@
+.list {
+    padding: 1rem 2rem;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.pokemon-list {
+
+    display: grid;
+
+    --item-heigh: 15rem;
+    --item-width: 10rem;
+
+    grid-template-rows: repeat(auto-fill, var(--item-heigh));
+    grid-template-columns: repeat(auto-fill, var(--item-width));
+
+    padding: 4rem;
+    justify-content: center;
+
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+
+}
+

@@ -1,0 +1,46 @@
+.app-darkmode header {
+    background-color: (--dark-red-color);
+    box-shadow: 1px .1rem 10px 2px rgba(255, 255, 255, 1);
+}
+
+.app-darkmode .circle{
+    background-color: #ffffff;
+}
+
+.app-darkmode {
+    background-color:rgb(3, 3, 3) ;
+    min-height: 100vh;
+}
+
+.app-darkmode .sprite{
+    background-color: #303030;
+}
+
+.app-darkmode .pokemon-type{
+    border: 1px solid #a1a1a1 ;
+}
+
+.app-darkmode .pokemon{
+    background-color: #232323;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.082);
+}
+
+.app-darkmode * {
+    color: #ffffff;
+}
+
+.app-darkmode .search{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 2px 8px 0 rgba(255, 255, 255, 0.5), 0 1px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.app-darkmode .search::placeholder{
+    color: black;
+}
+
+
+.app-darkmode .pokemon-extended{
+    background-color: #232323;
+} 
