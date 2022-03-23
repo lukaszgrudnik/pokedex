@@ -6,6 +6,9 @@ How to run application:
 2) go to the package directory 
 3) run: npm start
 
-
-
+Techstack: 
+ - Reactjs
+ - TypeScript 
+ - CSS
+ - HTML
 
